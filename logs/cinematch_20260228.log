@@ -1,0 +1,150 @@
+2026-02-28 15:25:00,491 - INFO - Initializing DataPreprocessor
+2026-02-28 15:25:01,265 - INFO - Merging movies and credits datasets
+2026-02-28 15:25:01,287 - INFO - Merged dataset shape: (4803, 23)
+2026-02-28 15:25:01,287 - INFO - Parsing JSON columns
+2026-02-28 15:25:17,399 - INFO - Extracting structured features
+2026-02-28 15:28:52,328 - INFO - Initializing DataPreprocessor
+2026-02-28 15:28:53,799 - INFO - Merging movies and credits datasets
+2026-02-28 15:28:53,842 - INFO - Merged dataset shape: (4803, 23)
+2026-02-28 15:28:53,842 - INFO - Parsing JSON columns
+2026-02-28 15:29:05,842 - INFO - Extracting structured features
+2026-02-28 15:31:12,467 - INFO - Initializing DataPreprocessor
+2026-02-28 15:31:12,957 - INFO - Datasets merged successfully
+2026-02-28 15:31:12,957 - INFO - Parsing JSON columns...
+2026-02-28 15:31:19,118 - INFO - Extracting structured features...
+2026-02-28 15:31:19,340 - INFO - Preprocessing completed successfully
+2026-02-28 15:31:19,412 - INFO - Building TF-IDF vectorizer
+2026-02-28 15:31:20,568 - INFO - Computing cosine similarity matrix
+2026-02-28 15:31:21,234 - INFO - Model artifacts saved successfully
+2026-02-28 15:40:21,036 - INFO - Initializing CineMatchEngine
+2026-02-28 15:42:16,215 - INFO - Initializing CineMatchEngine
+2026-02-28 15:42:16,541 - INFO - Engine loaded successfully
+2026-02-28 15:42:16,541 - INFO - Session history initialized
+2026-02-28 15:42:21,725 - ERROR - Error fetching movie: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:43:00,985 - INFO - Initializing CineMatchEngine
+2026-02-28 15:43:01,325 - INFO - Engine loaded successfully
+2026-02-28 15:43:01,569 - ERROR - Error fetching trending: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:43:04,912 - INFO - Initializing CineMatchEngine
+2026-02-28 15:43:05,118 - INFO - Engine loaded successfully
+2026-02-28 15:43:05,370 - ERROR - Error fetching trending: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:43:06,942 - INFO - Added 'Avatar' to session history
+2026-02-28 15:43:07,168 - ERROR - Error fetching movie: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:43:07,451 - ERROR - Error fetching movie: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:43:08,388 - ERROR - Error fetching movie: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:43:08,634 - ERROR - Error fetching movie: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:43:08,650 - INFO - Generating similarity heatmap for Avatar
+2026-02-28 15:43:18,426 - INFO - Initializing CineMatchEngine
+2026-02-28 15:43:18,663 - INFO - Engine loaded successfully
+2026-02-28 15:43:18,950 - ERROR - Error fetching trending: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:43:21,192 - INFO - Initializing CineMatchEngine
+2026-02-28 15:43:21,390 - INFO - Engine loaded successfully
+2026-02-28 15:43:32,856 - INFO - Initializing CineMatchEngine
+2026-02-28 15:43:33,050 - INFO - Engine loaded successfully
+2026-02-28 15:43:37,382 - INFO - Initializing CineMatchEngine
+2026-02-28 15:43:37,592 - INFO - Engine loaded successfully
+2026-02-28 15:43:37,860 - ERROR - Error fetching trending: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:43:45,348 - INFO - Initializing CineMatchEngine
+2026-02-28 15:43:45,538 - INFO - Engine loaded successfully
+2026-02-28 15:43:45,770 - ERROR - Error fetching trending: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:43:49,448 - INFO - Initializing CineMatchEngine
+2026-02-28 15:43:49,639 - INFO - Engine loaded successfully
+2026-02-28 15:45:12,632 - INFO - Initializing CineMatchEngine
+2026-02-28 15:45:12,979 - INFO - Engine loaded successfully
+2026-02-28 15:45:18,792 - INFO - Initializing CineMatchEngine
+2026-02-28 15:45:18,987 - INFO - Engine loaded successfully
+2026-02-28 15:45:25,591 - INFO - Initializing CineMatchEngine
+2026-02-28 15:45:25,770 - INFO - Engine loaded successfully
+2026-02-28 15:45:26,012 - ERROR - Error fetching trending: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:48:21,524 - INFO - Initializing CineMatchEngine
+2026-02-28 15:48:21,953 - INFO - Engine loaded successfully
+2026-02-28 15:48:21,953 - INFO - Session history initialized
+2026-02-28 15:48:22,230 - ERROR - Error fetching trending: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:48:47,002 - INFO - Initializing CineMatchEngine
+2026-02-28 15:48:47,196 - INFO - Engine loaded successfully
+2026-02-28 15:48:47,449 - ERROR - Error fetching trending: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:48:48,521 - INFO - Initializing CineMatchEngine
+2026-02-28 15:48:48,705 - INFO - Engine loaded successfully
+2026-02-28 15:48:50,136 - ERROR - Error fetching movie: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:48:50,354 - ERROR - Error fetching movie: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:48:50,592 - ERROR - Error fetching movie: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:48:56,142 - INFO - Initializing CineMatchEngine
+2026-02-28 15:48:56,359 - INFO - Engine loaded successfully
+2026-02-28 15:51:21,744 - INFO - Initializing CineMatchEngine
+2026-02-28 15:51:22,076 - INFO - Engine loaded successfully
+2026-02-28 15:51:22,778 - ERROR - Error fetching trending: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:55:56,007 - INFO - Initializing CineMatchEngine
+2026-02-28 15:55:56,382 - INFO - Engine loaded successfully
+2026-02-28 15:55:56,383 - INFO - Session history initialized
+2026-02-28 15:55:59,003 - ERROR - Error fetching movie: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:55:59,290 - ERROR - Error fetching movie: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:56:01,152 - ERROR - Error fetching movie: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:56:33,951 - INFO - Initializing CineMatchEngine
+2026-02-28 15:56:34,233 - INFO - Engine loaded successfully
+2026-02-28 15:56:34,525 - ERROR - Error fetching trending: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:56:36,094 - INFO - Added 'Avatar' to session history
+2026-02-28 15:56:38,407 - ERROR - Error fetching movie: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:56:39,374 - ERROR - Error fetching movie: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:56:39,412 - INFO - Generating similarity heatmap for Avatar
+2026-02-28 15:57:43,819 - INFO - Initializing CineMatchEngine
+2026-02-28 15:57:44,238 - INFO - Engine loaded successfully
+2026-02-28 15:57:44,584 - ERROR - Error fetching trending: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 15:57:49,847 - INFO - Initializing CineMatchEngine
+2026-02-28 15:57:50,146 - INFO - Engine loaded successfully
+2026-02-28 15:57:52,578 - INFO - Generating similarity heatmap for Avatar
+2026-02-28 16:00:03,548 - INFO - Initializing CineMatchEngine
+2026-02-28 16:00:03,946 - INFO - Engine loaded successfully
+2026-02-28 16:00:09,757 - INFO - Initializing CineMatchEngine
+2026-02-28 16:00:10,004 - INFO - Engine loaded successfully
+2026-02-28 16:00:10,307 - ERROR - Error fetching trending: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 16:00:17,692 - INFO - Initializing CineMatchEngine
+2026-02-28 16:00:17,991 - INFO - Engine loaded successfully
+2026-02-28 16:00:18,387 - ERROR - Error fetching trending: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 16:00:20,169 - INFO - Initializing CineMatchEngine
+2026-02-28 16:00:20,427 - INFO - Engine loaded successfully
+2026-02-28 16:00:21,242 - ERROR - Error fetching trending: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 16:00:38,777 - INFO - Initializing CineMatchEngine
+2026-02-28 16:00:39,085 - INFO - Engine loaded successfully
+2026-02-28 16:00:54,342 - INFO - Initializing CineMatchEngine
+2026-02-28 16:00:54,663 - INFO - Engine loaded successfully
+2026-02-28 16:00:55,034 - ERROR - Error fetching trending: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 16:01:11,343 - INFO - Initializing CineMatchEngine
+2026-02-28 16:01:11,588 - INFO - Engine loaded successfully
+2026-02-28 16:01:11,931 - ERROR - Error fetching trending: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 16:01:13,440 - INFO - Initializing CineMatchEngine
+2026-02-28 16:01:13,681 - INFO - Engine loaded successfully
+2026-02-28 16:01:21,368 - INFO - Initializing CineMatchEngine
+2026-02-28 16:01:21,623 - INFO - Engine loaded successfully
+2026-02-28 16:01:24,462 - INFO - Initializing CineMatchEngine
+2026-02-28 16:01:24,770 - INFO - Engine loaded successfully
+2026-02-28 16:01:27,139 - INFO - Added 'John Carter' to session history
+2026-02-28 16:01:28,222 - ERROR - Error fetching movie: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 16:01:29,475 - ERROR - Error fetching movie: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 16:01:29,500 - INFO - Generating similarity heatmap for John Carter
+2026-02-28 16:06:18,130 - INFO - Initializing CineMatchEngine
+2026-02-28 16:06:18,534 - INFO - Engine loaded successfully
+2026-02-28 16:06:18,535 - INFO - Session history initialized
+2026-02-28 16:06:22,615 - ERROR - Error fetching movie: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 16:06:22,938 - ERROR - Error fetching movie: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 16:06:23,240 - ERROR - Error fetching movie: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 16:06:32,503 - INFO - Initializing CineMatchEngine
+2026-02-28 16:06:32,806 - INFO - Engine loaded successfully
+2026-02-28 16:06:33,161 - ERROR - Error fetching trending: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 16:06:34,710 - INFO - Added 'Avatar' to session history
+2026-02-28 16:06:35,007 - ERROR - Error fetching movie: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 16:06:37,263 - ERROR - Error fetching movie: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 16:06:38,345 - INFO - Generating similarity heatmap for Avatar
+2026-02-28 16:06:45,608 - INFO - Initializing CineMatchEngine
+2026-02-28 16:06:45,931 - INFO - Engine loaded successfully
+2026-02-28 16:06:48,937 - INFO - Initializing CineMatchEngine
+2026-02-28 16:06:49,216 - INFO - Engine loaded successfully
+2026-02-28 16:06:49,566 - ERROR - Error fetching trending: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 16:06:51,102 - INFO - Added 'Spider-Man 3' to session history
+2026-02-28 16:06:56,614 - ERROR - Error fetching movie: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 16:06:56,639 - INFO - Generating similarity heatmap for Spider-Man 3
+2026-02-28 16:07:12,654 - INFO - Initializing CineMatchEngine
+2026-02-28 16:07:12,938 - INFO - Engine loaded successfully
+2026-02-28 16:07:16,550 - INFO - Initializing CineMatchEngine
+2026-02-28 16:07:16,815 - INFO - Engine loaded successfully
+2026-02-28 16:07:19,196 - INFO - Added 'Wrath of the Titans' to session history
+2026-02-28 16:07:22,405 - ERROR - Error fetching movie: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-02-28 16:07:22,426 - INFO - Generating similarity heatmap for Wrath of the Titans

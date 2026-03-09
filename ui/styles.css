@@ -1,0 +1,46 @@
+/* Cinematic Gradient Background */
+body {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: white;
+}
+
+/* Glowing Animated Header */
+.glow-title {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 10px #ff0080; }
+    to { text-shadow: 0 0 30px #7928ca; }
+}
+
+/* Poster Hover Zoom */
+.poster img {
+    border-radius: 12px;
+    transition: transform 0.4s ease;
+}
+
+.poster img:hover {
+    transform: scale(1.08);
+}
+
+/* Horizontal Scroll Section */
+.horizontal-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* Auto-scroll animation */
+@keyframes scrollAnim {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
