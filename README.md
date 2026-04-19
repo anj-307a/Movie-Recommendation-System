@@ -1,4 +1,5 @@
 🎬 Movie Recommendation System
+
 📌 Overview
 
 This project is a Movie Recommendation System that suggests movies to users based on similarity and user preferences. It uses machine learning techniques to analyze movie data and recommend relevant movies.
@@ -43,10 +44,9 @@ Step 3: Train the model
 python train_model.py
 Step 4: Run the application
 python app.py
+
 📊 Dataset
-
 The dataset contains:
-
 Movie titles
 Genres
 Keywords
